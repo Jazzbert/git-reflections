@@ -1,0 +1,16 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+	It looks like git creates the hidden directory and creates the basic meta data
+needed to track the versioning of the files in the directory.  Without the
+initial metadata, there would be no reference for the other commands to work
+from to execute.
+
+How is the staging area different from the working directory and the
+repository?  What value do you think it offers?
+
+	You can put files in the working directory that will not be part of
+the repository or aren't ready to be put into the pository in a given commit.
+The staging area allows you to put just the files that pertain the next commit
+in one "place", separating from every other file in the working directory.
+
+
