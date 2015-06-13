@@ -14,4 +14,8 @@ Forks are a copy of a repository on GitHub.  The fork references the original, b
 
     You can work offline without connection to the remote.  Also, you can continue to work on a steady state environment without updates possibly having unexpected impact to what you're presently working on.
 
+5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+    You can use e-mail or shared drives or other mechanisms.  Git/GitHub makes it easier to keep track of changes and merge things togehter.  Though there's a learning-curve to using Git...sometimes it may just be easier for smaller collaborations to pass around a file and/or work together.
+
 
