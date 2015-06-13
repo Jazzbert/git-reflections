@@ -13,4 +13,24 @@ the repository or aren't ready to be put into the pository in a given commit.
 The staging area allows you to put just the files that pertain the next commit
 in one "place", separating from every other file in the working directory.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can easily see exactly which files are in the commit, and use --staged flag to determine which changes in those files were made.  If the changes weren't part of a single logical change, then you can address.
+
+What are some situations when branches would be helpful in ekeping your history organized?  How would branches help?
+
+Branching allows different iterations of whatever I'm working on.  It could be working out a new approach to the code while not losing track of the original course, or even creating a different instance of the code to take the program in a different direction altogether.
+
+How do the diagrams help you visualize the branch structure?
+
+It shows what changes can be reached by any given branch.  Changes made off another branch that happened after the first brach was made are not reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    It combines all the changes in a logical manor based on both the changes in the branches and the state when the two branches separated.  We represent the diagram as a rejoining of the branches because the one branch no longer continues to exist and the new end-point represents just one branch with two parents.
+
+What are teh pros and cons of Git's automatic merging vs. always doing merges manually?
+
+    Automatic merging saves a lot of time trying to manually sort through changes made at different parts in development.  If changes made are un-related, it's great that they can be merged togther.  On the other hand, it may not be obvious how to resolve apparent conflicts and even worse, there will probably be some times where changes made to two different parts of code ARE related and can introduce new problems.  Good news, is we can still go back to a previous commit to try to sort out issues.
+
 
