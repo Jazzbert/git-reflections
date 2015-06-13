@@ -1,0 +1,4 @@
+1. When would you want to use a remote repository rather than keeping all your work local?
+
+A couple of reasons come time mind.  First, when you want to work when you're not connected to the Internet.  That is less and less often.  Probably more importantly, when you're doing the testing/compiling/etc. on a local computer, it makes more sense to have the local copy and not work with the GitHub version.  Thinking through it further, you would probably end up making too many commits by working on-line unless you had ability to save without committing.
+
