@@ -10,4 +10,8 @@
 
 Forks are a copy of a repository on GitHub.  The fork references the original, but it does not update it.  Clones are local copies of a repository.  This can be either a copy of a repository on GitHub or a copy of another local repository.  Clones can be pushed to update the original repository. Branches are different lines of commits within a repository.  They can be merged with other branches, maintained separately, or discarded.
 
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    You can work offline without connection to the remote.  Also, you can continue to work on a steady state environment without updates possibly having unexpected impact to what you're presently working on.
+
 
