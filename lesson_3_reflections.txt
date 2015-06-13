@@ -18,4 +18,6 @@ Forks are a copy of a repository on GitHub.  The fork references the original, b
 
     You can use e-mail or shared drives or other mechanisms.  Git/GitHub makes it easier to keep track of changes and merge things togehter.  Though there's a learning-curve to using Git...sometimes it may just be easier for smaller collaborations to pass around a file and/or work together.
 
+6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
+    When collaborating, you'd want to use a branch to develop an area that you want to have reveiwed before committing to master.  This allows a chance for changes to be corrected, altered, or improved before the master is impacted.
